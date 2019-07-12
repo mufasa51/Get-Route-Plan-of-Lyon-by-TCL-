@@ -197,7 +197,7 @@ if __name__ == '__main__':
                 matrix.ix[n,m] = 0
                 #print(n,m,)
     print(matrix)
-    matrix.to_excel('V:/勤劳的园丁/研究生/stage2/计算空间距离/result.xlsx',sheet_name = 'Sheet1')
+    matrix.to_excel('result.xlsx',sheet_name = 'Sheet1')
 
     #建立不同站点形成的矩阵，然后把时间提取出来，放进去
 
